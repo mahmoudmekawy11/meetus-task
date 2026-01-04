@@ -9,14 +9,7 @@ interface EllipseProps {
   opacity?: number;
 }
 
-const Ellipse: React.FC<EllipseProps> = ({
-  size,
-  top,
-  left,
-  color,
-  blur,
-  opacity = 100,
-}) => {
+const Ellipse: React.FC<EllipseProps> = ({ size, top, left, color, blur }) => {
   return (
     <div
       className="absolute pointer-events-none"

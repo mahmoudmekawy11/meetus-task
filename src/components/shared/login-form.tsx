@@ -71,7 +71,7 @@ const LoginForm = () => {
             type="email"
             id="email"
             {...register("email")}
-            className="w-full pl-12 pr-4 py-3.5 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent text-gray-700 placeholder:text-gray-400"
+            className="w-full pl-12 pr-4 py-3.5 bg-white/40 backdrop-blur-sm border border-white/60 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-400/50 focus:border-purple-300 text-gray-800 placeholder:text-gray-500"
             placeholder="Email"
           />
         </div>
@@ -92,7 +92,7 @@ const LoginForm = () => {
             type="password"
             id="password"
             {...register("password")}
-            className="w-full pl-12 pr-4 py-3.5 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent text-gray-700 placeholder:text-gray-400"
+            className="w-full pl-12 pr-4 py-3.5 bg-white/40 backdrop-blur-sm border border-white/60 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-400/50 focus:border-purple-300 text-gray-800 placeholder:text-gray-500"
             placeholder="Password"
           />
         </div>
